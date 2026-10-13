@@ -1,0 +1,27 @@
+# Week 5: Zero-shot vs Few-shot Sentiment Analysis
+
+## Results
+
+**Review 1:** The battery life is amazing!  
+Actual: Positive | Zero-shot: Positive | Few-shot: Positive
+
+**Review 2:** It works, nothing special.  
+Actual: Neutral | Zero-shot: Neutral | Few-shot: Neutral
+
+**Review 3:** The camera quality is terrible.  
+Actual: Negative | Zero-shot: Negative | Few-shot: Negative
+
+**Review 4:** I really love the display and performance.  
+Actual: Positive | Zero-shot: Positive | Few-shot: Positive
+
+**Review 5:** The phone is okay, but nothing impressive.  
+Actual: Neutral | Zero-shot: Neutral | Few-shot: Neutral
+
+## Comparison Summary
+
+- Zero-shot Accuracy: 5/5 (100%)
+- Few-shot Accuracy: 5/5 (100%)
+
+## Conclusion
+
+Both zero-shot and few-shot methods achieved the same accuracy on the five sample reviews.
